@@ -53,36 +53,3 @@ DebugPrivateAnnotations.xml
 # Exclude the .vscode directory, which contains workspace-specific settings
 # and configurations that are often personal or machine-dependent.
 .vscode/
-
----
-
-# IntelliJ IDEA Files
-# Exclude the .idea directory and associated files, as these contain
-# project settings, caches, and user-specific configurations.
-.idea/
-*.iws
-*.iml
-*.ipr
-
----
-
-# Make Build Artifacts
-# These are common patterns for files generated during a 'make' build process.
-# The exact files can vary based on your Makefile, but these are a good start.
-
-# Object files and dependency files
-*.o
-*.d
-*.lo
-*.la
-
-# Shared libraries, static libraries, and executables
-*.so
-*.a
-*.lib
-*.dll
-*.exe
-*.out
-
-# Directories for intermediate build products
-.libs/
