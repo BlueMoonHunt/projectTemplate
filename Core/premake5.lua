@@ -10,7 +10,6 @@ project "Core"
    includedirs
    {
       "src"
-
    }
 
    targetdir ("../bin/" .. OutputDir .. "/%{prj.name}")

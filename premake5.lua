@@ -1,4 +1,7 @@
 -- premake5.lua
+
+include "dependencies"
+
 workspace "New Project"
    architecture "x64"
    configurations { "Debug", "Release", "Dist" }
@@ -10,7 +13,7 @@ workspace "New Project"
 OutputDir = "%{cfg.system}-%{cfg.architecture}/%{cfg.buildcfg}"
 
 group "Core"
-	include "Core/build.lua"
+	include "Core"
 group ""
 
-include "Application/build.lua"
+include "Application"
