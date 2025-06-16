@@ -9,5 +9,3 @@ out/
 *.sln
 *.vcxproj
 *.user
-
-CMakeLists.txt
